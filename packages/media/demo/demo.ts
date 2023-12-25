@@ -11,7 +11,7 @@ const setGlobalPlayer = (id: string, value: unknown) => (window[id + 'Player'] =
 if (root) {
     const nodes = root.querySelectorAll('div');
 
-    for (const node of nodes) {
+    for (const node of Array.from(nodes)) {
         switch (node.id) {
             case 'mp3':
                 setGlobalPlayer(node.id, createMp3Player(node));
