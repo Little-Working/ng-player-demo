@@ -1,0 +1,15 @@
+**/tmp
+**/temp
+**/dist
+**/coverage
+
+# ignore lockfile
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ignore misc file
+**/*.min.js
+**/*.min.css
+tsconfig.json
+tsconfig.*.json
