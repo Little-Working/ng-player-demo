@@ -1,0 +1,13 @@
+{
+  "name": "@npd/loader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Load remote data or resource",
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC",
+  "dependencies": {
+    "@npd/config": "workspace:^",
+    "@npd/util": "workspace:^"
+  }
+}

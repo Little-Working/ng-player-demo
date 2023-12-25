@@ -1,1 +1,1 @@
-# fe-template
+# ng-player-demo

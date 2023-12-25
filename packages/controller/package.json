@@ -1,0 +1,13 @@
+{
+  "name": "@npd/controller",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business controller layer",
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC",
+  "dependencies": {
+    "@npd/store": "workspace:^",
+    "mobx": "^6.12.0"
+  }
+}

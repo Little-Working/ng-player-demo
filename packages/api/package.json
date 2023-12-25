@@ -1,0 +1,12 @@
+{
+  "name": "@npd/api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business interface layer",
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC",
+  "dependencies": {
+    "@npd/store": "workspace:^"
+  }
+}

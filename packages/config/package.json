@@ -1,0 +1,9 @@
+{
+  "name": "@npd/config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App shared static config",
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC"
+}

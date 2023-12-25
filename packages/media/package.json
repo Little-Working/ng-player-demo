@@ -1,0 +1,18 @@
+{
+  "name": "@npd/media",
+  "version": "1.0.0",
+  "description": "Abstract media layer",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC",
+  "devDependencies": {
+    "dashjs": "^4.7.3",
+    "happy-dom": "^12.10.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "fe-template",
+  "name": "ng-player-demo",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@8.12.0",
@@ -8,7 +8,7 @@
     "prepare": "node ./.husky/setup.js",
     "husky:pre-commit": "lint-staged",
     "husky:commit-msg": "commitlint --edit ${1}",
-    "test": "pnpm run eslint",
+    "test": "pnpm run build:references && pnpm run tscheck && pnpm run eslint",
     "build:references": "tsc --build",
     "tscheck": "pnpm -r --parallel exec tsc --noEmit",
     "eslint": "eslint '**/*.{js,jsx,ts,tsx}' --quiet"
@@ -36,6 +36,7 @@
     "dotenv": "^16.3.1",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "npm-check-updates": "^16.14.11",

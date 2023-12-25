@@ -10,10 +10,22 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
+    settings: {
+        react: {
+            version: '18',
+        },
+    },
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:react/recommended',
+        'plugin:react/jsx-runtime',
+        'prettier',
+    ],
     plugins: ['@typescript-eslint'],
     rules: {
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-unused-vars': 1,
     },
 };

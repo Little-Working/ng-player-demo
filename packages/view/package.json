@@ -1,0 +1,19 @@
+{
+  "name": "@npd/view",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business React view with mobx",
+  "keywords": [],
+  "author": "Aqours",
+  "license": "ISC",
+  "dependencies": {
+    "@npd/component": "workspace:^",
+    "@npd/store": "workspace:^",
+    "mobx-react-lite": "^4.0.5",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/react": "^18.2.43"
+  }
+}
