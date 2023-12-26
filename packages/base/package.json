@@ -1,6 +1,5 @@
 {
   "name": "@npd/base",
-  "type": "module",
   "version": "1.0.0",
   "private": true,
   "description": "Build app with base architecture",
